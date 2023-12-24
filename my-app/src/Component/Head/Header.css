@@ -37,7 +37,7 @@ header ul li a:hover{
 
 .home-btn:hover{
     background-color: #ff014f;
-    color: white;
+    color: rgb(129, 101, 231);
 }
 .open {
     display: none;
@@ -58,6 +58,7 @@ header ul li a:hover{
     header ul{
         padding-top: 30px;
     }
+   
     .nav-links-mobile{
         position: absolute;
         display: block;
@@ -79,6 +80,12 @@ header ul li a:hover{
     }
     header .link{
         display: none;
+    }
+    .sha{
+      
+        font-size: 17px;
+        
+      
     }
     .close,
     .open{
@@ -106,3 +113,13 @@ header ul li a:hover{
     height: 10vh;
   }
 }
+.pho{
+  border-radius: 50%;
+    width: 25%;
+  
+}
+.demo{
+    height: 10vh;
+  
+}
+

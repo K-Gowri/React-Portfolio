@@ -1,6 +1,6 @@
 import React,{ useState } from 'react'
 import "./Header.css"
-import logo from "../Head/pic/logo1.png"
+import logo from "../pic/logo1.png"
 
 const Header = () => {
 //when scroll header at top
@@ -16,12 +16,15 @@ const [Mobile,setMobile] = useState(false)
   return (
   <>
   <header className='header'>
+
     <div className="container d_flex">
         <div className="logo">
-            <img className="pho" src={logo} alt="" />
+            <img className="pho" src={logo}  alt="" />
+          
         </div>
 
         <div className='navlink'>
+        
             {/* <ul className='link f_flex uppercase'> */}
               <ul className={Mobile ? "nav-links-mobile" : "link f_flex uppercase"} onClick={() => setMobile(false)}>
                 <li><a href='#home'>Home</a></li>
@@ -44,6 +47,8 @@ const [Mobile,setMobile] = useState(false)
         </div>
     </div>
   </header>
+  {/* section */}
+  <section className='demo'></section>
     </>
   
   )
