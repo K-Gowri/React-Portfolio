@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.css"
-import hero from "../pic/logo.jpeg"
+import hero from "../pic/logo.jpg"
 import python from "../pic/python.jpg"
 import html from "../pic/Html.png"
 import css from "../pic/css.png"

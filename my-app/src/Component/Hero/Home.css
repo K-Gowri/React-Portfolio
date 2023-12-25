@@ -69,15 +69,15 @@
     box-shadow: 4px 4px 8px #cbcbcb,4px -4px 8px #ffffff;
     border-radius: 10px;
     height: 580px;
-    width: 470px;
-    margin-top:-10%;
+    width: 510px;
+    margin-top:20%;
 
 }
 
 .hero .right_img img{
     position: absolute;
     top: 0;
-    right: 3%;
+    right: 10%;
     width: 450px;
     height: 500px;
 }
