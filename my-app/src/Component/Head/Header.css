@@ -2,11 +2,7 @@ header{
     height: 10vh;
     line-height: 10vh;
 }
-.pho{
-   
-    width:150px;
-   
-  }
+
 header .container{
     padding-top: 15px;
 }
@@ -29,6 +25,7 @@ header ul li a:hover{
     cursor: pointer;
     height: fit-content;
     color: #ff014f;
+    width: 150px;
 }
 .home-btn {
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
@@ -48,10 +45,10 @@ header ul li a:hover{
     top: 0;
     z-index: 1000;
     width: 100%;
-    background-color: #ecf0f3;
+    background-color: #fff;
     box-shadow: -1px 11px 24px -11px rgb(0,0,0,0.75);
     transition: 0.5s;
-
+    
 }
 
 @media (max-width: 768px){
@@ -81,12 +78,7 @@ header ul li a:hover{
     header .link{
         display: none;
     }
-    .sha{
-      
-        font-size: 17px;
-        
-      
-    }
+
     .close,
     .open{
         position: absolute;
@@ -108,14 +100,19 @@ header ul li a:hover{
     height: 60px;
     line-height: 60px;
 
- }
+
+}
+
   .header.active{
-    height: 10vh;
+    height: 12vh;
   }
 }
+
+
+
 .pho{
   border-radius: 50%;
-    width: 25%;
+    width: 27%;
   
 }
 .demo{

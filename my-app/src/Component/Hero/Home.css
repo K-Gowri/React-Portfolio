@@ -29,6 +29,10 @@
 }
 .hero_btn{
     margin-top: 20%;
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-gap:3px;
+    
 }
 .hero_btn h4{
     font-weight:  500;
@@ -40,15 +44,18 @@
 
 .hero_btn button{
     margin-right: 30px;
+  
 
 }
 
 .hero_btn i{
     font-size: 20px;
+    
 }
 .hero_btn button img{
     width: 20px;
     height: 20px;
+  
 }
 .hero .left{
     margin-right:  10%;
