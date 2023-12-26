@@ -6,7 +6,7 @@ import Card from './Card'
 const Port = () => {
   return (
   <>
-  <section className='portfolio top' id=''>
+  <section className='portfolio top' id='portfolio'>
     <div className='container'>
         <div className='heading text-center'>
             <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>

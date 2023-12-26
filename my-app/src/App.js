@@ -4,6 +4,8 @@ import "./App.css"
 import Home from "./Component/Hero/Home"
 import Features from "./Component/Features/Features"
 import Port from "./Component/Port/Port"
+import Resume from "./Component/Resume/Resume"
+
 
 
 const App = () => {
@@ -12,6 +14,8 @@ const App = () => {
   <Home />
   <Features />
 <Port />
+<Resume />
+
   </>
   )
 }
