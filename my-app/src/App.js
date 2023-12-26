@@ -5,6 +5,8 @@ import Home from "./Component/Hero/Home"
 import Features from "./Component/Features/Features"
 import Port from "./Component/Port/Port"
 import Resume from "./Component/Resume/Resume"
+// import Testimonial from "./Component/Testimonial/Testimonial"
+import Blog from "./Component/Blog/Blog"
 
 
 
@@ -15,7 +17,8 @@ const App = () => {
   <Features />
 <Port />
 <Resume />
-
+{/* <Testimonial /> */}
+<Blog />
   </>
   )
 }
