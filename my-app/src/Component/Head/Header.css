@@ -82,15 +82,15 @@ header ul li a:hover{
     .close,
     .open{
         position: absolute;
-        top: 45px;
+        top: 35px;
         right: 20px;
         color: #ff014f;
         display: block;
         font-size: 25px;
-        z-index: 299;
+        z-index: 999;
     }
     .close{
-        right: 25%;
+        right: 45%;
     }
  .close.home-btn{
     color:#ff014f;
@@ -104,7 +104,7 @@ header ul li a:hover{
 }
 
   .header.active{
-    height: 12vh;
+    height: 10vh;
   }
 }
 

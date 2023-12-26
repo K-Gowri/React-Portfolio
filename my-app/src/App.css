@@ -111,3 +111,12 @@ textarea , input{
   border: 3px solid #e2e8ec;
   margin-bottom: 20px;
 }
+
+@media (max-width:768px) {
+   .grid{
+    grid-template-columns: repeat(2,1fr);
+   }
+   .left,.right{
+    width: 100%;
+   }
+}
