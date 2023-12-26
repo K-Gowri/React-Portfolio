@@ -7,7 +7,7 @@ import Port from "./Component/Port/Port"
 import Resume from "./Component/Resume/Resume"
 // import Testimonial from "./Component/Testimonial/Testimonial"
 import Blog from "./Component/Blog/Blog"
-
+import Contact from "./Component/Contact/Contact"
 
 
 const App = () => {
@@ -19,6 +19,7 @@ const App = () => {
 <Resume />
 {/* <Testimonial /> */}
 <Blog />
+<Contact />
   </>
   )
 }
